@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #B0CFA3; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-container {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+}
+
+.register {
+    flex: 1;
+    padding: 20px;
+    background: transparent; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%; 
+    height: auto;
+}
+
+.Login {
+    flex: 1;
+    background: transparent; 
+    background-image: url('IMAGEN/LOGO.png');
+    background-size: 320px 312px; /* Tamaño específico de la imagen */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2 {
+    color: rgb(255, 255, 255); /* Color blanco para el texto ¡BIENVENIDO! */
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #ff8c00; /* Cambia el color del botón a naranja */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
